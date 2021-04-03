@@ -84,7 +84,17 @@
                 <tr>
                     <td>aws s3 ls</td>
                     <td><img src="..\..\images\cogWheel-sm.png" alt="Cog Wheel" /></td>
-                    <td>Used to list the contents of an s3 bucket</td>
+                    <td>Used to list the s3 buckets a user has access to.</td>
+                </tr>
+                <tr>
+                    <td>aws s3 mb s3://[bucket name]</td>
+                    <td><img src="..\..\images\cogWheel-sm.png" alt="Cog Wheel" /></td>
+                    <td>Used to create a new bucket. Special naming rules apply</td>
+                </tr>
+                <tr>
+                    <td>aws s3 rb s3://[bucket name] --force</td>
+                    <td><img src="..\..\images\cogWheel-sm.png" alt="Cog Wheel" /></td>
+                    <td>Used to delete a bucket. Special naming rules apply</td>
                 </tr>
                 <tr>
                     <td>aws s3 cp [file name] s3://[bucket name]</td>
@@ -145,7 +155,7 @@
                         Deletions are included
                         </td>
                 </tr>
-            </tbody>
+            </tbody> 
 
 
         </table>
@@ -154,7 +164,8 @@
     <footer class="blog-footer">
 
         <p>
-            <a href="#">Back to top</a>
+            <a href="#" target="_blank">Back to top</a> <br />
+            <a href="https://docs.aws.amazon.com/cli/latest/userguide/cli-services-s3-commands.html#using-s3-commands-delete-buckets">More...</a>
         </p>
     </footer>
 </body>
